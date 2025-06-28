@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/UsuarioserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/UsuarioserviceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario$UsuarioBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/repository/UsuarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/service/UsuarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancesLog/testDeleteCorreoOK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancesLog/testDeleteIdOK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancesLog/testGetOK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancesLog/testPostOK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancesLog/testPutOK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/puertogames2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/PuertogamesApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/VideojuegoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/model/Videojuego.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/repository/VideojuegoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/test/java/com/puertogames/puertogames_api/PuertogamesApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/test/java/com/puertogames/puertogames_api/controller/UsuarioControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/busqueda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/img/apex.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/stockTienda.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GMonLep&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GMonLep/EV3-PuertoGames.git&quot;,
+    &quot;accountId&quot;: &quot;f3ea507c-da20-4bfc-88a9-acfe5083d91a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2z7MMLyiAhL8xR36896sQr5fgQ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CarritoControllerTest.testGetAll.executor": "Run",
+    "JUnit.CarritoServiceTest.testFindAll.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
+    "Spring Boot.ProductserviceApplication.executor": "Run",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-Perfulandia/Perfulandia_evaluacion2_FullStack-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gmont\Desktop\EV3-Perfulandia\Perfulandia_evaluacion2_FullStack-main\carritoservice\carritoservice\src\main\java\com\perfulandia\carritoservice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CarritoServiceTest.testFindAll">
+    <configuration name="CarritoControllerTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="carritoservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.carritoservice.CarritoserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="productservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.productservice.ProductserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="usuarioservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.usuarioservice.UsuarioserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarritoServiceTest.testFindAll" />
+        <item itemvalue="JUnit.CarritoControllerTest.testGetAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="" />
+      <created>1751077608939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751077608939</updated>
+      <workItem from="1751077612561" duration="1224000" />
+      <workItem from="1751078935541" duration="7919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
