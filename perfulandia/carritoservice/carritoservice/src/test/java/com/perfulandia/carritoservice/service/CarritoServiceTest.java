@@ -30,7 +30,7 @@ public class CarritoServiceTest {
         MockitoAnnotations.openMocks(this);
     }
     @Test
-    @DisplayName("TEST SERVICE 1 - OBTENER LISTA")
+    @DisplayName("TEST SERVICE 1: OBTENER LISTA")
     void testFindAll(){
         //Simular la creación de un objeto de carrito
         Carrito carrito = new Carrito();
@@ -46,4 +46,5 @@ public class CarritoServiceTest {
         //verificamos q se llamo 1 vez al metodo findAll() de parte del repositorio
         verify(repo, times(1)).findAll();
     }
+
 }

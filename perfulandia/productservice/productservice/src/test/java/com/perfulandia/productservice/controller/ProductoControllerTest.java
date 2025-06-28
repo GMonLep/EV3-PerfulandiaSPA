@@ -80,7 +80,7 @@ public class ProductoControllerTest {
     }
 
     @Test
-    @DisplayName("TESTING 4 PATCH")
+    @DisplayName("TEST: 4 PATCH")
     void testPatch() throws Exception{
         Producto actualizado = new Producto(1L, "Perfume no-bacanono",100000,25);
         Map<String,Object> campos = new HashMap<>();
