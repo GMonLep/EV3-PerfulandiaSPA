@@ -26,11 +26,9 @@ public class UsuarioServiceTest {
     @Test
     @DisplayName("TEST SERVICE 1: deleteById")
     void testDeleteById(){
-        //Establecemos q la id del "producto" q queremos eliminar existe
-        long id = 1L;
         //llamamos al servicio a probar
-        service.eliminar(id);
+        service.eliminar(1L);
         //verificamos llamado al repositorio
-        verify(repo, times(1)).deleteById(id);
+        verify(repo, times(1)).deleteById(1L);
     }
 }
