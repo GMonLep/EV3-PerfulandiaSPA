@@ -1,4 +1,4 @@
-package com.perfulandia.carritoservice.model;
+package com.perfulandia.productservice.model;
 
 //dto para carrito
 

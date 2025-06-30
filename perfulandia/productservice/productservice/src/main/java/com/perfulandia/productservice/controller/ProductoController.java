@@ -1,7 +1,9 @@
 package com.perfulandia.productservice.controller;
+import com.perfulandia.productservice.model.ProductoDTO;
 import com.perfulandia.productservice.model.Usuario;
 import com.perfulandia.productservice.model.Producto;
 import com.perfulandia.productservice.service.ProductoService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
@@ -24,6 +26,7 @@ public class ProductoController {
         this.restTemplate = restTemplate;
     }
 
+
     //listar
     @GetMapping
     public List<Producto> listar(){
@@ -35,7 +38,7 @@ public class ProductoController {
         return servicio.guardar(producto);
     }
     //buscar x id
-    @GetMapping("/{id}")
+    @GetMapping("/buscar/{id}")
     public Producto buscar(@PathVariable long id){
         return servicio.bucarPorId(id);
     }
@@ -53,5 +56,15 @@ public class ProductoController {
     @PatchMapping("/{id}")
     public Producto actualizar(@PathVariable Long id, @RequestBody Map<String, Object> campos){
         return servicio.actualizar(id,campos);
+    }
+
+    //get pal dto
+    @GetMapping("/producto/{id}")
+    public ResponseEntity<ProductoDTO> getProducto(@PathVariable Long id) {
+        ProductoDTO producto = servicio.getProductoDTOById(id);
+        if (producto == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(producto);
     }
 }

@@ -5,72 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/UsuarioserviceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/service/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/UsuarioserviceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario$UsuarioBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/repository/UsuarioRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/service/UsuarioService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../avancesLog/testDeleteCorreoOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../avancesLog/testDeleteIdOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../avancesLog/testGetOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../avancesLog/testPostOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../avancesLog/testPutOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/puertogames2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/PuertogamesApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/UsuarioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/VideojuegoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/model/Videojuego.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/repository/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/repository/VideojuegoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/service/UsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/test/java/com/puertogames/puertogames_api/PuertogamesApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/backend/puertogames-api/src/test/java/com/puertogames/puertogames_api/controller/UsuarioControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/busqueda.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/img/apex.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../puertogames2/frontend/stockTienda.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/ProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/service/UsuarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/service/UsuarioServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +48,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GMonLep/EV3-PuertoGames.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/GMonLep/EV3-PerfulandiaSPA.git&quot;,
     &quot;accountId&quot;: &quot;f3ea507c-da20-4bfc-88a9-acfe5083d91a&quot;
   }
 }</component>
@@ -110,8 +62,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CarritoControllerTest.testDelete.executor": "Run",
     "JUnit.CarritoControllerTest.testGetAll.executor": "Run",
+    "JUnit.CarritoControllerTest.testPost.executor": "Run",
+    "JUnit.CarritoControllerTest.testPut.executor": "Run",
     "JUnit.CarritoServiceTest.testFindAll.executor": "Run",
+    "JUnit.ProductoControllerTest.executor": "Run",
+    "JUnit.ProductoServiceTest.actualizaProducto.executor": "Run",
+    "JUnit.UsuarioControllerTest.executor": "Run",
+    "JUnit.UsuarioServiceTest.testDeleteById.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -119,6 +78,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CarritoserviceApplication.executor": "Run",
     "Spring Boot.ProductserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
@@ -137,6 +97,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gmont\Desktop\EV3-Perfulandia\Perfulandia_evaluacion2_FullStack-main\carritoservice\carritoservice\src\main\java\com\perfulandia\carritoservice" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.perfulandia.productservice.model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -148,7 +111,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarritoServiceTest.testFindAll">
+  <component name="RunManager" selected="JUnit.CarritoControllerTest.testPut">
+    <configuration name="CarritoControllerTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarritoControllerTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -165,17 +144,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarritoServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarritoControllerTest.testPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="METHOD_NAME" value="testPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoControllerTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="METHOD_NAME" value="testPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioServiceTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="usuarioservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.usuarioservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.service.UsuarioServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,8 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarritoServiceTest.testFindAll" />
+        <item itemvalue="JUnit.CarritoControllerTest.testPut" />
+        <item itemvalue="JUnit.CarritoControllerTest.testDelete" />
+        <item itemvalue="JUnit.CarritoControllerTest.testPost" />
         <item itemvalue="JUnit.CarritoControllerTest.testGetAll" />
+        <item itemvalue="JUnit.UsuarioServiceTest.testDeleteById" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +243,10 @@
       <updated>1751077608939</updated>
       <workItem from="1751077612561" duration="1224000" />
       <workItem from="1751078935541" duration="7919000" />
+      <workItem from="1751089024581" duration="2908000" />
+      <workItem from="1751092096509" duration="45000" />
+      <workItem from="1751092380120" duration="70000" />
+      <workItem from="1751249641199" duration="16535000" />
     </task>
     <servers />
   </component>
