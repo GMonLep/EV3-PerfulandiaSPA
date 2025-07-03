@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f1b1bcf-d251-43a8-bc5e-d80c1747ec8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/config/Creacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/config/Creacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/VideojuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/puertogames-api/src/main/java/com/puertogames/puertogames_api/controller/VideojuegoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/puertogames-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/puertogames-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/AnimalCrossing.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/AnimalCrossing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/EldenRing.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/EldenRing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/SuperMario.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/SuperMario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/busqueda.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/busqueda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/doom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nosotros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/registro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stockTienda.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/stockTienda.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GMonLep&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GMonLep/EV3-PuertoGames.git&quot;,
+    &quot;accountId&quot;: &quot;f3ea507c-da20-4bfc-88a9-acfe5083d91a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yeanVxzgfCVPBAiSD7ZPBw8uRj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.UsuarioControllerTest.testDeleteByCorreo.executor": "Run",
+    "JUnit.UsuarioControllerTest.testDeleteById.executor": "Run",
+    "JUnit.UsuarioControllerTest.testGetAll (1).executor": "Run",
+    "JUnit.UsuarioControllerTest.testGetAll.executor": "Run",
+    "JUnit.UsuarioControllerTest.testGetById.executor": "Run",
+    "JUnit.UsuarioControllerTest.testPost (1).executor": "Run",
+    "JUnit.UsuarioControllerTest.testPost.executor": "Run",
+    "JUnit.UsuarioControllerTest.testPut.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PuertogamesApiApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-PuertoGames/puertogames2/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gmont\Desktop\EV3-PuertoGames\puertogames2\frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gmont\Desktop\EV3-PuertoGames\puertogames2\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PuertogamesApiApplication">
+    <configuration name="UsuarioControllerTest.testDeleteByCorreo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puertogames-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puertogames.puertogames_api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.puertogames.puertogames_api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.puertogames.puertogames_api.controller.UsuarioControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteByCorreo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioControllerTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puertogames-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puertogames.puertogames_api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.puertogames.puertogames_api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.puertogames.puertogames_api.controller.UsuarioControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioControllerTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puertogames-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puertogames.puertogames_api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.puertogames.puertogames_api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.puertogames.puertogames_api.controller.UsuarioControllerTest" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioControllerTest.testPost (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puertogames-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puertogames.puertogames_api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.puertogames.puertogames_api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.puertogames.puertogames_api.controller.UsuarioControllerTest" />
+      <option name="METHOD_NAME" value="testPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioControllerTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puertogames-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puertogames.puertogames_api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.puertogames.puertogames_api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.puertogames.puertogames_api.controller.UsuarioControllerTest" />
+      <option name="METHOD_NAME" value="testPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuertogamesApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="puertogames-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.puertogames.puertogames_api.PuertogamesApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UsuarioControllerTest.testDeleteByCorreo" />
+        <item itemvalue="JUnit.UsuarioControllerTest.testDeleteById" />
+        <item itemvalue="JUnit.UsuarioControllerTest.testPut" />
+        <item itemvalue="JUnit.UsuarioControllerTest.testPost (1)" />
+        <item itemvalue="JUnit.UsuarioControllerTest.testGetById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f1b1bcf-d251-43a8-bc5e-d80c1747ec8f" name="Changes" comment="" />
+      <created>1750197659542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750197659542</updated>
+      <workItem from="1750197661130" duration="3456000" />
+      <workItem from="1750260760371" duration="29000" />
+      <workItem from="1750308513681" duration="862000" />
+      <workItem from="1750352933655" duration="5312000" />
+      <workItem from="1750799268199" duration="80000" />
+      <workItem from="1750814193807" duration="82000" />
+      <workItem from="1750819232503" duration="404000" />
+      <workItem from="1750819653519" duration="11621000" />
+      <workItem from="1750832164326" duration="1025000" />
+      <workItem from="1750833253484" duration="1109000" />
+      <workItem from="1750834443192" duration="718000" />
+      <workItem from="1750835203217" duration="492000" />
+      <workItem from="1750835931213" duration="146000" />
+      <workItem from="1750836394639" duration="50000" />
+      <workItem from="1750885391654" duration="8412000" />
+      <workItem from="1750894328089" duration="110000" />
+      <workItem from="1750902549833" duration="1038000" />
+      <workItem from="1750987182040" duration="53000" />
+      <workItem from="1750987416652" duration="496000" />
+      <workItem from="1751350870190" duration="55000" />
+      <workItem from="1751351121991" duration="24000" />
+      <workItem from="1751351191832" duration="10900000" />
+      <workItem from="1751403049473" duration="951000" />
+      <workItem from="1751406344682" duration="1272000" />
+      <workItem from="1751407861596" duration="871000" />
+      <workItem from="1751512442847" duration="453000" />
+      <workItem from="1751513236554" duration="99000" />
+      <workItem from="1751513492912" duration="22388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
