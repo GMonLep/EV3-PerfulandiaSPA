@@ -1,6 +1,7 @@
 package com.perfulandia.carritoservice.model;
 
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -16,8 +17,8 @@ public class Carrito {
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private long id;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "carrito_id")
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "carrito")
+    @JsonManagedReference
     private List<CarritoItem> items = new ArrayList<>();
 
 }

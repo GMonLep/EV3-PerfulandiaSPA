@@ -1,4 +1,5 @@
 package com.perfulandia.carritoservice.model;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
@@ -15,12 +16,15 @@ public class CarritoItem {
     private long id;
     private long productoId;
     private String nombre;
+
+    @Column(nullable = false)
     private double precio;
     private int cantidad;
     private double precioTotal;
 
     @ManyToOne
     @JoinColumn(name = "carrito_id")
+    @JsonBackReference
     private Carrito carrito;
 
     //calcula el precio total multiplicando la cantidad del producto x el precio unitario

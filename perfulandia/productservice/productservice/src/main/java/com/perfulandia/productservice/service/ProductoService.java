@@ -1,6 +1,7 @@
 package com.perfulandia.productservice.service;
 
 import com.perfulandia.productservice.model.Producto;
+import com.perfulandia.productservice.model.ProductoDTO;
 import com.perfulandia.productservice.repository.ProductoRepository;
 import org.springframework.stereotype.Service;
 
@@ -70,5 +71,15 @@ public class ProductoService {
                 }
         );
         return repo.save(producto);
+    }
+
+    public ProductoDTO getProductoDTOById(Long id) {
+        return repo.findById(id)
+                .map(producto -> ProductoDTO.builder()
+                        .productoId(producto.getProductoId())
+                        .nombre(producto.getNombre())
+                        .precio(producto.getPrecio())
+                        .build())
+                .orElse(null);
     }
 }
