@@ -16,8 +16,15 @@ public class CarritoAssembler implements RepresentationModelAssembler<Carrito, E
                 //enlace a carrito actual
                 linkTo(methodOn(CarritoController.class).getById(carrito.getId())).withSelfRel(),
                 //lista completa
-                linkTo(methodOn(CarritoController.class).getAll()).withRel("carritos"));
+                linkTo(methodOn(CarritoController.class).getAll()).withRel("lista de carritos"),
+                //para actualizare
+                linkTo(methodOn(CarritoController.class).actualizarCarrito(carrito.getId(), carrito.getItems())).withRel("actualizar carrito"),
+                // crear carrito
+                linkTo(methodOn(CarritoController.class).guardarCarrito(null)).withRel("guardar carrito"),
+                //eliminar carrito
+                linkTo(methodOn(CarritoController.class).eliminar(carrito.getId())).withRel("eliminar carrito"));
 
     }
+
 
 }

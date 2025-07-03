@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/assembler/CarritoAssembler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/assembler/CarritoAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/assembler/CarritoAssembler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
     "Spring Boot.CarritoserviceApplication.executor": "Run",
     "Spring Boot.ProductserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/hateoas",
     "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-PerfulandiaSPA/perfulandia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -242,11 +240,23 @@
       <workItem from="1751409006077" duration="9000" />
       <workItem from="1751522418265" duration="30000" />
       <workItem from="1751537507798" duration="4791000" />
+      <workItem from="1751552581495" duration="3451000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

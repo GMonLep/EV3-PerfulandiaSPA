@@ -53,16 +53,26 @@ public class CarritoController {
 
     //Guardar Carrito
     @PostMapping
-    public Carrito guardarCarrito(@RequestBody List<ProductoDTO> items) {return servicio.guardar(items);}
+    public EntityModel<Carrito> guardarCarrito(@RequestBody List<ProductoDTO> items){
+        return assembler.toModel(servicio.guardar(items));
+    }
+
 
     //Eliminar
     @DeleteMapping("/{id}")
-    public void eliminar(@PathVariable long id){
+    public RepresentationModel<?> eliminar(@PathVariable long id) {
         servicio.eliminar(id);
+        RepresentationModel<?> model = new RepresentationModel<>();
+        model.add(linkTo(methodOn(CarritoController.class).getAll()).withRel("eliminar carritos"));
+
+        return model;
     }
+
 
     //Actualizar carritou
     @PutMapping("/{id}")
-    public Carrito actualizarCarrito(@PathVariable int id, @RequestBody List<CarritoItem> items) {return servicio.actualizar(id,items);}
+    public EntityModel<Carrito> actualizarCarrito(@PathVariable long id, @RequestBody List<CarritoItem> items){
+        return assembler.toModel(servicio.actualizar(id, items));
+    }
 
 }

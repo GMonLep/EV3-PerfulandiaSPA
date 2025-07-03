@@ -14,19 +14,19 @@ public class Creacion {
             //iniciamos la cuenta vacia pq la base de datos va a estar vacia
             if (repository.count() == 0) {
                 repository.save(Producto.builder()
-                        .nombre("Rosado")
+                        .nombre("Armando Armani")
                         .precio(1000)
                         .stock(5)
                         .build());
 
                 repository.save(Producto.builder()
-                        .nombre("Azul")
+                        .nombre("Cloud 5")
                         .precio(2000)
                         .stock(2)
                         .build());
 
                 repository.save(Producto.builder()
-                        .nombre("Perfume Verde")
+                        .nombre("Perfume buenisimo")
                         .precio(3000)
                         .stock(4)
                         .build());
