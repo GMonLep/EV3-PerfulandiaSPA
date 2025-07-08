@@ -26,7 +26,7 @@ public class Creacion {
                         .build());
 
                 repository.save(Producto.builder()
-                        .nombre("Perfume Verde")
+                        .nombre("Verde")
                         .precio(3000)
                         .stock(4)
                         .build());

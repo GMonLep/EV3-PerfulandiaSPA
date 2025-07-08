@@ -1,4 +1,4 @@
-package com.perfulandia.productservice.config;
+package com.perfulandia.carritoservice.config;
 
 import io.swagger.v3.oas.models.*;
 import io.swagger.v3.oas.models.info.*;
@@ -11,9 +11,9 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("productoservice 🌸")
+                        .title("carritomicroservice 🛒")
                         .version("1.0")
-                        .description("Microservicio de Producto")
+                        .description("Microservicio de Carrito")
                         .contact(new Contact()
                                 .name("Génesis Montero")
                                 .email("gen.montero@duocuc.cl")
@@ -23,4 +23,3 @@ public class OpenApiConfig {
 
     }
 }
-

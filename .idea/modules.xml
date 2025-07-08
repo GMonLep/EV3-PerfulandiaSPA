@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/carritoservice.iml" filepath="$PROJECT_DIR$/.idea/carritoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/swagger.iml" filepath="$PROJECT_DIR$/.idea/swagger.iml" />
     </modules>
   </component>
 </project>
