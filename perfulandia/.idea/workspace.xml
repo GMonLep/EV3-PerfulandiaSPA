@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="">
+    <list default="true" id="65053f11-3776-48b3-bfd5-3992ecc31af1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/assembler/ProductoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/assembler/UsuarioAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/assembler/CarritoAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/assembler/CarritoAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/carritoservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/service/UsuarioServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +37,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,56 +57,36 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2z7MMLyiAhL8xR36896sQr5fgQ1" />
+  <component name="ProjectId" id="2za1u1GPfniOA2wy817v40bLILY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CarritoControllerTest.testDelete.executor": "Run",
-    "JUnit.CarritoControllerTest.testGetAll.executor": "Run",
-    "JUnit.CarritoControllerTest.testPost.executor": "Run",
-    "JUnit.CarritoControllerTest.testPut.executor": "Run",
-    "JUnit.CarritoServiceTest.testFindAll.executor": "Run",
-    "JUnit.ProductoControllerTest.executor": "Run",
-    "JUnit.ProductoServiceTest.actualizaProducto.executor": "Run",
-    "JUnit.UsuarioControllerTest.executor": "Run",
-    "JUnit.UsuarioServiceTest.testDeleteById.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CarritoserviceApplication.executor": "Run",
-    "Spring Boot.ProductserviceApplication.executor": "Run",
-    "Spring Boot.UsuarioserviceApplication.executor": "Run",
-    "git-widget-placeholder": "feature/hateoas",
-    "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-PerfulandiaSPA/perfulandia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL, Greenplum, Redshift",
-    "settings.editor.splitter.proportion": "0.2324159",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CarritoserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UsuarioserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/hateoas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gmont\Desktop\EV3-Perfulandia\Perfulandia_evaluacion2_FullStack-main\carritoservice\carritoservice\src\main\java\com\perfulandia\carritoservice" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.perfulandia.productservice.model" />
-    </key>
-  </component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -100,98 +98,30 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CarritoserviceApplication">
-    <configuration name="CarritoControllerTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoControllerTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoControllerTest.testPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="METHOD_NAME" value="testPost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoControllerTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="METHOD_NAME" value="testPut" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioServiceTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="usuarioservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.usuarioservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.service.UsuarioServiceTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.carritoservice.CarritoserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ProductserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="productservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.productservice.ProductserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,11 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarritoControllerTest.testPut" />
-        <item itemvalue="JUnit.CarritoControllerTest.testDelete" />
-        <item itemvalue="JUnit.CarritoControllerTest.testPost" />
-        <item itemvalue="JUnit.CarritoControllerTest.testGetAll" />
-        <item itemvalue="JUnit.UsuarioServiceTest.testDeleteById" />
+        <item itemvalue="Spring Boot.CarritoserviceApplication" />
+        <item itemvalue="Spring Boot.ProductserviceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -224,42 +151,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="" />
-      <created>1751077608939</created>
+      <changelist id="65053f11-3776-48b3-bfd5-3992ecc31af1" name="Changes" comment="" />
+      <created>1751954594879</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751077608939</updated>
-      <workItem from="1751077612561" duration="1224000" />
-      <workItem from="1751078935541" duration="7919000" />
-      <workItem from="1751089024581" duration="2908000" />
-      <workItem from="1751092096509" duration="45000" />
-      <workItem from="1751092380120" duration="70000" />
-      <workItem from="1751249641199" duration="16535000" />
-      <workItem from="1751351309901" duration="389000" />
-      <workItem from="1751408865082" duration="85000" />
-      <workItem from="1751409006077" duration="9000" />
-      <workItem from="1751522418265" duration="30000" />
-      <workItem from="1751537507798" duration="4791000" />
-      <workItem from="1751552581495" duration="3451000" />
+      <updated>1751954594879</updated>
+      <workItem from="1751954603731" duration="5448000" />
+      <workItem from="1752010753428" duration="2816000" />
+      <workItem from="1752014126480" duration="1412000" />
+      <workItem from="1752015840706" duration="1998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

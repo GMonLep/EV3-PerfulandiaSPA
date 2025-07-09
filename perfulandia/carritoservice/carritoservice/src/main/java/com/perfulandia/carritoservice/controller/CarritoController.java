@@ -61,10 +61,14 @@ public class CarritoController {
     //Eliminar
     @DeleteMapping("/{id}")
     public RepresentationModel<?> eliminar(@PathVariable long id) {
+        Carrito carrito = new Carrito();
         servicio.eliminar(id);
         RepresentationModel<?> model = new RepresentationModel<>();
+        model.add(linkTo(methodOn(CarritoController.class).getAll()).withRel("lista de carritos"));
+        model.add(linkTo(methodOn(CarritoController.class).getById(carrito.getId())).withSelfRel());
         model.add(linkTo(methodOn(CarritoController.class).getAll()).withRel("eliminar carritos"));
-
+        model.add(linkTo(methodOn(CarritoController.class).actualizarCarrito(carrito.getId(), carrito.getItems())).withRel("actualizar carrito"));
+        model.add(linkTo(methodOn(CarritoController.class).guardarCarrito(null)).withRel("guardar carrito"));
         return model;
     }
 

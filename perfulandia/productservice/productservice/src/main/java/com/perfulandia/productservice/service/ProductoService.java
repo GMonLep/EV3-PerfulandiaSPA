@@ -2,11 +2,14 @@ package com.perfulandia.productservice.service;
 
 import com.perfulandia.productservice.model.Producto;
 import com.perfulandia.productservice.model.ProductoDTO;
+import com.perfulandia.productservice.model.Usuario;
 import com.perfulandia.productservice.repository.ProductoRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Map;
+import org.springframework.web.client.RestTemplate;
 
 
 @Service
@@ -16,6 +19,7 @@ public class ProductoService {
     public ProductoService(ProductoRepository repo){
         this.repo=repo;
     }
+    private final RestTemplate restTemplate = new RestTemplate();
 
     //listar
     public List<Producto> listar(){
@@ -33,6 +37,8 @@ public class ProductoService {
     public void eliminar(long id){
         repo.deleteById(id);
     }
+
+
 
     public Producto actualizar(long id, Map<String, Object> campos) {
         Producto producto = repo.findById(id).orElse(null);
