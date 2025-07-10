@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d7ee09-f518-46ca-afe4-aef1b63727a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentacion/usuarioSwagger.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documentacion/usuarioSwagger.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/carritoservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/Creacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/config/Creacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/config/Creacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario$UsuarioBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario$UsuarioBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/classes/com/perfulandia/usuarioservice/model/Usuario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +125,9 @@
       <workItem from="1751316410961" duration="1867000" />
       <workItem from="1751362672268" duration="379000" />
       <workItem from="1751409029869" duration="730000" />
+      <workItem from="1751954073321" duration="44000" />
+      <workItem from="1752101708245" duration="2189000" />
+      <workItem from="1752107364708" duration="13000" />
     </task>
     <servers />
   </component>
