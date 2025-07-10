@@ -61,7 +61,7 @@ public class ProductoControllerTest {
     void getById() throws Exception{
         Producto producto = new Producto(1L, "Perfume bacanono",100000,9);
         when(service.bucarPorId(1L)).thenReturn(producto);
-        mockMvc.perform(get("/api/productos/1"))
+        mockMvc.perform(get("/api/productos/buscar/1"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.nombre").value("Perfume bacanono"));
     }

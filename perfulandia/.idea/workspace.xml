@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5d3246-7963-42d4-ac04-5e4ff47e7dac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/ProductoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/CarritoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/controller/ProductoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto$ProductoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/model/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/target/classes/com/perfulandia/productservice/service/ProductoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/service/UsuarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/target/test-classes/com/perfulandia/usuarioservice/service/UsuarioServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +52,18 @@
     "JUnit.CarritoControllerTest.testPut.executor": "Run",
     "JUnit.CarritoServiceTest.testFindAll.executor": "Run",
     "JUnit.ProductoControllerTest.executor": "Run",
+    "JUnit.ProductoControllerTest.getById.executor": "Run",
+    "JUnit.ProductoControllerTest.testDelete.executor": "Run",
+    "JUnit.ProductoControllerTest.testGetAll.executor": "Run",
+    "JUnit.ProductoControllerTest.testPatch.executor": "Run",
+    "JUnit.ProductoControllerTest.testPost.executor": "Run",
     "JUnit.ProductoServiceTest.actualizaProducto.executor": "Run",
     "JUnit.UsuarioControllerTest.executor": "Run",
+    "JUnit.UsuarioControllerTest.getById.executor": "Run",
+    "JUnit.UsuarioControllerTest.testDelete.executor": "Run",
+    "JUnit.UsuarioControllerTest.testGetAll.executor": "Run",
+    "JUnit.UsuarioControllerTest.testPatch.executor": "Run",
+    "JUnit.UsuarioControllerTest.testPost.executor": "Run",
     "JUnit.UsuarioServiceTest.testDeleteById.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -83,7 +77,7 @@
     "Spring Boot.ProductserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-Perfulandia/Perfulandia_evaluacion2_FullStack-main",
+    "last_opened_file_path": "C:/Users/gmont/Desktop/EV3-PerfulandiaSPA/perfulandia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarritoControllerTest.testPut">
+  <component name="RunManager" selected="JUnit.CarritoServiceTest.testFindAll">
     <configuration name="CarritoControllerTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -176,17 +170,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioServiceTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="usuarioservice" />
+    <configuration name="CarritoServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.usuarioservice.service.*" />
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.service.UsuarioServiceTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarritoServiceTest.testFindAll" />
         <item itemvalue="JUnit.CarritoControllerTest.testPut" />
         <item itemvalue="JUnit.CarritoControllerTest.testDelete" />
         <item itemvalue="JUnit.CarritoControllerTest.testPost" />
         <item itemvalue="JUnit.CarritoControllerTest.testGetAll" />
-        <item itemvalue="JUnit.UsuarioServiceTest.testDeleteById" />
       </list>
     </recent_temporary>
   </component>
@@ -247,10 +241,30 @@
       <workItem from="1751092096509" duration="45000" />
       <workItem from="1751092380120" duration="70000" />
       <workItem from="1751249641199" duration="16535000" />
+      <workItem from="1751351309901" duration="389000" />
+      <workItem from="1751408865082" duration="85000" />
+      <workItem from="1751409006077" duration="9000" />
+      <workItem from="1751522418265" duration="30000" />
+      <workItem from="1752107404571" duration="4031000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/carritoservice/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java</url>
+          <line>52</line>
+          <properties class="com.perfulandia.carritoservice.controller.CarritoControllerTest" method="testGetAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
